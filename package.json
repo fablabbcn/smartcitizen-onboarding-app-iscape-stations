@@ -1,5 +1,5 @@
 {
-  "name": "smartcitizen-onboarding-app-iscape",
+  "name": "smartcitizen-onboarding-app-iscape-stations",
   "version": "2.0.0",
   "description": "Onboarding",
   "main": "src/index.js",
@@ -64,7 +64,7 @@
   },
   "gh-pages-deploy": {
     "staticpath": "dist",
-    "cname": "onboarding.iscape.smartcitizen.me",
+    "cname": "stations.iscape.smartcitizen.me",
     "prep": [
       "build"
     ]
