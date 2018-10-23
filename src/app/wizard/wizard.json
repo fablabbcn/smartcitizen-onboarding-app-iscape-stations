@@ -11,7 +11,8 @@
     "contentKeys": [
       "h2",
       "h4",
-      "segueButton"
+      "segueButton",
+      "contextButton1"
     ]
 },{
     "stateName": "",
@@ -34,15 +35,15 @@
       {
         "index": 2,
         "part": 3,
-        "template": "basic2",
+        "template": "kitbuild1",
         "stateName": "smart_citizen_brief",
         "url": "smart_citizen_brief",
         "assets": {
-          "image": "assets/images/sck.png"
+          "image": "assets/images/station.jpg"
         },
         "contentKeys": [
           "h2",
-          "h4",
+          "text",
           "segueButton"
         ]
       },
@@ -81,66 +82,45 @@
       {
         "index": 11,
         "part": 2,
-        "template": "selectparts1",
-        "stateName": "selectparts",
-        "controller": "statesController",
-        "url": "kit_parts",
+        "template": "kitbuild1",
+        "stateName": "kitbuild1",
+        "url": "kitbuild_1",
+        "assets": {
+          "image": "assets/images/station-remove-stickers.jpg"
+        },
         "contentKeys": [
           "h2",
-          "h4",
-          "part1",
-          "part1_desc",
-          "part2",
-          "part2_desc",
-          "part3",
-          "part3_desc",
-          "part4",
-          "part4_desc",
-          "modalButton",
-          "contextButton",
-          "segueButton",
-          "segueButtonError",
-          "continueButton",
-          "yesButton",
-          "noButton"
+          "text",
+          "segueButton"
         ]
       },
       {
         "index": 12,
         "part": 3,
-        "template": "selectparts2",
-        "stateName": "selectparts2",
-        "controller": "statesController",
-        "url": "case",
+        "template": "kitbuild1",
+        "stateName": "kitbuild2",
+        "url": "kitbuild_2",
+        "assets": {
+          "image": "assets/images/station-open-top-1.jpg"
+        },
         "contentKeys": [
           "h2",
-          "h4",
-          "part5",
-          "part5_desc",
-          "part6",
-          "part6_desc",
-          "part7",
-          "part7_desc",
-          "part8",
-          "part8_desc",
-          "modalButton",
-          "contextButton",
-          "segueButton",
-          "segueButtonError",
-          "continueButton",
-          "yesButton",
-          "noButton"
+          "text",
+          "segueButton"
         ]
       },
       {
         "index": 13,
         "part": 4,
-        "template": "confirm",
-        "stateName": "confirm_parts",
-        "url": "confirm_parts",
+        "template": "kitbuild1",
+        "stateName": "kitbuild3",
+        "url": "kitbuild_3",
+        "assets": {
+          "image": "assets/images/station-open-top-2.jpg"
+        },
         "contentKeys": [
-          "h1",
-          "h4",
+          "h2",
+          "text",
           "segueButton"
         ]
       },
@@ -148,8 +128,11 @@
         "index": 14,
         "part": 5,
         "template": "kitbuild1",
-        "stateName": "kitbuild1",
-        "url": "kitbuild_1",
+        "stateName": "kitbuild4",
+        "url": "kitbuild_4",
+        "assets": {
+          "image": "assets/images/station-open-top-3.jpg"
+        },
         "contentKeys": [
           "h2",
           "text",
@@ -159,62 +142,11 @@
       {
         "index": 15,
         "part": 6,
-        "template": "kitbuild2",
-        "stateName": "kitbuild2",
-        "url": "kitbuild_2",
-        "contentKeys": [
-          "h2",
-          "text",
-          "segueButton"
-        ]
-      },
-      {
-        "index": 16,
-        "part": 7,
-        "template": "kitbuild3",
-        "stateName": "kitbuild3",
-        "url": "kitbuild_3",
-        "contentKeys": [
-          "h2",
-          "text",
-          "segueButton"
-        ]
-      },
-      {
-        "index": 17,
-        "part": 8,
-        "template": "kitbuild4",
-        "stateName": "kitbuild4",
-        "url": "kitbuild_4",
-        "contentKeys": [
-          "h2",
-          "text",
-          "segueButton"
-        ]
-      },
-      {
-        "index": 18,
-        "part": 9,
-        "template": "casing",
-        "stateName": "case1",
-        "url": "case_1",
+        "template": "kitbuild1",
+        "stateName": "kitbuild5",
+        "url": "kitbuild_5",
         "assets": {
-          "image": "assets/images/sck_placeall.png"
-        },
-        "contentKeys": [
-          "h2",
-          "text",
-          "segueButton"
-        ]
-      },
-      {
-        "index": 19,
-        "part": 10,
-        "template": "casing",
-        "stateName": "case2",
-        "url": "case_2",
-        "assets": {
-          "image": "assets/images/sck_sealthecover.png"
+          "image": "assets/images/station-plug-battery.jpg"
         },
         "contentKeys": [
           "h2",
@@ -223,7 +155,8 @@
         ]
       }
     ]
-  }, {
+  },
+  {
     "index": 20,
     "stateName": "choose_connection",
     "controller": "chooseConnectionController",
@@ -232,14 +165,12 @@
     "part": 1,
     "assets": {
       "smartphoneImage": "assets/images/AP-handshake.png",
-      "lightMethodImage": "assets/images/light_handshake.png",
       "offlineImage": "assets/images/sd-mode.png"
     },
     "contentKeys": [
       "h2",
       "recommended",
       "smartphone",
-      "lightMethod",
       "offline",
       "segueButtonError",
       "continueButton",
@@ -403,6 +334,21 @@
         ]
       },
       {
+        "index": 37,
+        "part": 3,
+        "template": "kitbuild1",
+        "stateName": "offline_sd",
+        "url": "offline_sd",
+        "assets": {
+          "image": "assets/images/station-sd-card.jpg"
+        },
+        "contentKeys": [
+          "h2",
+          "text",
+          "segueButton"
+        ]
+      },
+      {
         "index": 36,
         "part": 2,
         "template": "prompted_entry1",
@@ -421,8 +367,8 @@
         ]
       },
       {
-        "index": 37,
-        "part": 3,
+        "index": 38,
+        "part": 4,
         "template": "prompted_entry2",
         "stateName": "offline_2",
         "url": "offline_2",
@@ -438,8 +384,8 @@
           "segueButton"
         ]
       },{
-        "index": 38,
-        "part": 4,
+        "index": 39,
+        "part": 5,
         "template": "prompted_entry2",
         "stateName": "offline_3",
         "url": "offline_2",
@@ -457,8 +403,8 @@
       }]
     },
     {
-      "index": 39,
-      "part": 5,
+      "index": 40,
+      "part": 6,
       "template": "confirm",
       "controller": "smartcitizenController",
       "stateName": "confirm_handshake",
@@ -469,12 +415,11 @@
         "segueButton"
       ]
     },
-
   {
     "stateName": "",
     "controller": "nameController",
     "subStates": [{
-        "index": 40,
+        "index": 45,
         "part": 1,
         "template": "basic1",
         "stateName": "sensorName_prep",
@@ -488,7 +433,7 @@
         ]
       },
       {
-        "index": 41,
+        "index": 46,
         "part": 2,
         "template": "sensorName",
         "stateName": "sensorName",

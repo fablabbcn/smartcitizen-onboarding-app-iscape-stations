@@ -1,6 +1,7 @@
 <key translate>landing.h2</key>
 <key translate>landing.h4</key>
 <key translate>landing.segueButton</key>
+<key translate>landing.contextButton1</key>
 <key translate>smart_citizen.h2</key>
 <key translate>smart_citizen.h4</key>
 <key translate>smart_citizen.segueButton</key>
@@ -62,6 +63,9 @@
 <key translate>kitbuild4.h2</key>
 <key translate>kitbuild4.text</key>
 <key translate>kitbuild4.segueButton</key>
+<key translate>kitbuild5.h2</key>
+<key translate>kitbuild5.text</key>
+<key translate>kitbuild5.segueButton</key>
 <key translate>case1.h2</key>
 <key translate>case1.text</key>
 <key translate>case1.segueButton</key>
